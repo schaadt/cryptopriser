@@ -1,38 +1,62 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+
+body {
+  font-family: 'Ropa Sans', sans-serif;
+  background-color: #0c0d14;
+  
+}
+
+h1 {
   text-align: center;
+  font-size: 50px;
+  color: #dcc6e0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #dcc6e0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  color: #6246ea;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.crypto {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  margin: 25px 10px 25px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.twentyfour {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #dcc6e0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.price {
+  font-size: 2rem;
+}
+
+.symbol {
+  text-transform: uppercase;
+  margin-top: -15px;
+  color: #dcc6e0;
+}
+
+.coins {
+  border: 2px solid #db0a5b;
+  padding: 2.5%;
+  text-align: center;
+  border-radius: 10px;
 }
